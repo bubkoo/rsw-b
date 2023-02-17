@@ -1,0 +1,14 @@
+name: 🚀　Release
+on:
+  push:
+    branches:
+      - master
+      - next
+      - next-major
+      - alpha
+      - beta
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: 'bubkoo/rsw-a/workflows/release.yml'
