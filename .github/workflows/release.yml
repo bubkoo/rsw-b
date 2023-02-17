@@ -11,4 +11,4 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: bubkoo/rsw-a/workflows/release@master
+      - uses: bubkoo/rsw-a/.github/workflows/release@master
