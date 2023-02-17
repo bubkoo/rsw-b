@@ -9,5 +9,4 @@ on:
       - beta
 jobs:
   run:
-    runs-on: ubuntu-latest
     uses: bubkoo/rsw-a/.github/workflows/release.yml@master
