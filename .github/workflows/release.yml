@@ -9,4 +9,9 @@ on:
       - beta
 jobs:
   run:
-    uses: bubkoo/rsw-a/.github/workflows/release.yml@master
+    runs-on: ubuntu-latest
+    uses: bubkoo/reusable-workflows/actions/semantic-release@master
+    secrets:
+      app-id: ${{ secrets.APP_ID }}
+      private-key: ${{ secrets.PRIVATE_KEY }}
+      npm-token: ${{ secrets.NPM_TOKEN }}

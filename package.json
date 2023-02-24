@@ -12,5 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "@bubkoo/semantic-release-config": "^1.7.0"
   }
 }
