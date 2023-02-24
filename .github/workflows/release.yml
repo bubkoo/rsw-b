@@ -9,5 +9,5 @@ on:
       - beta
 jobs:
   run:
-    uses: bubkoo/reusable-workflows/.github/workflows/semantic-release@master
+    uses: bubkoo/reusable-workflows/.github/workflows/semantic-release.yml@master
 
