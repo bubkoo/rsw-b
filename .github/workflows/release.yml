@@ -10,8 +10,6 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-    uses: bubkoo/reusable-workflows/actions/semantic-release@master
-    secrets:
-      app-id: ${{ secrets.APP_ID }}
-      private-key: ${{ secrets.PRIVATE_KEY }}
-      npm-token: ${{ secrets.NPM_TOKEN }}
+    steps:
+      - uses: bubkoo/reusable-workflows/actions/semantic-release@master
+
