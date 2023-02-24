@@ -11,7 +11,7 @@ jobs:
   run:
     uses: bubkoo/reusable-workflows/.github/workflows/semantic-release.yml@master
     with:
-      extends: false
+      extends: true
     secrets:
       app-id: ${{ secrets.APP_ID }}
       private-key: ${{ secrets.PRIVATE_KEY }}
