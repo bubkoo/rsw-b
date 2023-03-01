@@ -1,19 +1,19 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@bubkoo/semantic-release-config': ^1.7.0
+  '@bubkoo/semantic-release-config': ^1.8.0
   colors: ^1.4.0
 
 dependencies:
   colors: 1.4.0
 
 devDependencies:
-  '@bubkoo/semantic-release-config': 1.7.0
+  '@bubkoo/semantic-release-config': 1.8.0
 
 packages:
 
-  /@bubkoo/semantic-release-config/1.7.0:
-    resolution: {integrity: sha512-6/wFFT/u/2005Y+Hqt8mxQiBu5nOAbcImMuDMm1aihsMjTdQjcwREkPwVmHJfkpKallt+Nv+Qlmam32NEEzU9A==}
+  /@bubkoo/semantic-release-config/1.8.0:
+    resolution: {integrity: sha512-HGnB05FyMd6/FvfJUT1cSsyj9197DajohwhhEJ9LUlt1JC5bXcnDCJhg4XyFVMEcHX9JfauEJzaK9stWfvIzXA==}
     peerDependencies:
       semantic-release: '>=19.0.0'
     dependencies:
